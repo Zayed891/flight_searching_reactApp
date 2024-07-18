@@ -27,11 +27,12 @@ select {
    /* Remove default dropdown arrow */
 }
 
-label{
+.proFilter{
   background-color: #1c1c1c; /* Dark background for dropdown */
   color: #999999; /* White text color */
   border: none;
-  padding: 15px; /* Increased padding for larger box */
+  padding-top: 15px; /* only for heights   */
+  padding-bottom: 15px; /* only for heights*/
   border-radius: 5px;
   font-size: 18px; /* Increased font size */
   width: 250px; /* Increased width */
@@ -45,8 +46,12 @@ h4{
   margin-left: 0px;
 }
 
+.addWidth{
+  width: 250px
+}
+
 .submit{
-  margin: 20px 20px;
+  margin: 05px 20px;
   background-color: #1db3a4;
   color: #ffffff;
   border: none;
@@ -54,7 +59,6 @@ h4{
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-
 }
 
 .results {
