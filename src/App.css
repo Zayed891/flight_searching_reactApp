@@ -50,8 +50,8 @@ h4{
   width: 250px
 }
 
-.submit{
-  margin: 05px 20px;
+.submit {
+  margin: 5px 20px 20px 5px; /* Adjusted margins for a balanced look */
   background-color: #1db3a4;
   color: #ffffff;
   border: none;
@@ -59,6 +59,11 @@ h4{
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  text-align: left; /* Left-align the button text */
+}
+
+.submit:hover {
+  background-color: #17a394; /* A slightly darker shade on hover */
 }
 
 .results {
