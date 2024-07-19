@@ -8,7 +8,7 @@ const Results = ({ results, origin, destination }) => {
       ) : (
         results.map((result, index) => (
           <div key={index} className="result-card">
-            <div className="logo">Logo</div> {/* Placeholder for the airline logo */}
+            <img src="https://www.freepik.com/free-vector/detailed-travel-logo_9342520.htm#query=airplane%20logo&position=0&from_view=keyword&track=ais_user&uuid=5f31f90c-d057-4471-a2f3-8411af787a45" alt="Logo" className="logo" /> {/* Placeholder for the airline logo */}
             <div className="program">{result.partner_program}</div>
             <div className="route">{origin} &rarr; {destination}</div>
             <div className="date-range">2024-07-09 &rarr; 2024-10-07</div>
